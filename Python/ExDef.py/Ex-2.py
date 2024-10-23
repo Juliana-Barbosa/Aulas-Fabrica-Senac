@@ -1,0 +1,2 @@
+def expon (a, b):
+    

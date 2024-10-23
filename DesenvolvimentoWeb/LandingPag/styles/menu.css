@@ -1,0 +1,72 @@
+.cardapio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.area-cards{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 32px;
+    gap: 24px;
+    /* background-color: coral; */
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: space-between;
+    gap: 18px;
+    width: 350px;
+    padding: 20px;
+    background-color: var(--color-neutra-1);
+    box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.3s);
+    position: relative;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.2);
+    transition: box-shadow .3s ease;
+}
+.card:hover{
+    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.3);
+}
+.card-image{
+    width: 80%;
+}
+.card-heart{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.563rem;
+    background-color: var(--color-primary-6);
+    color: var(--color-neutra-1);
+    width: 70px;
+    height: 70px;
+    right: 0px;
+    top: 0px;
+    border-radius: 0px 18px 0px 42.5px;
+}
+.cars-descricao{
+    color: #434343;
+    text-align: center;
+}
+.card-rate{
+    color: var(--color-primary-6);
+}
+.card-price{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.section-title{
+    font-size: 36px;
+    padding: 20px;
+    color: var(--color-primary-6);
+}
+.section-subtitle{
+    font-size: 36px;
+    text-align: center;
+}

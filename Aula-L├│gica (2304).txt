@@ -1,0 +1,146 @@
+algortimo
+escreva a 10
+escreva b 20
+escreva b 
+escreva b 5
+escreva a,b
+escreva 10,5
+algoritimo fim
+-------------------
+algortimo
+escreva a 30
+escreva b 20
+escreva c = a + b
+escreva c 50
+escreva b 10
+escreva b,c
+escreva c = a + b
+escreva a, b, c
+escreva 30,10,40
+algoritimo fim
+-------------------
+algortimo
+escreva a 10
+escreva b 20
+escreva c=a
+escreva c 10
+escreva b=c
+escreva b 10
+escreva a=b
+escreva a,b,c
+escreva 10,10,10
+algoritimo fim
+-------------------
+algortimo
+escreva a 10
+escreva b=a+1
+escreva b=10+1
+escreva a=b+1
+escreva 10=11
+escreva b=a+1
+escreva 11=12
+escreva a 12
+escreva a=b+1
+escreva 12=13
+escreva a,b
+escreva 12,13
+algortimo fim
+-------------------
+algortimo
+escreva a 10
+escreva b 5
+escreva c= a+b
+escreva c 15
+escreva b 20
+escreva a 10
+escreva a,b,c
+escreva 10,20,15
+algortimo fim
+-------------------
+algortimo
+c
+algortimo fim
+-------------------
+algortimo 
+escreva y 10
+escreva z=y+4
+escreva z 14
+escreva w 10
+escreva w= z*2
+escreva w 28
+escreva w=y*w
+escreva w 280
+algortimo fim
+-------------------
+algortimo 
+escreva w 0
+escreva y 5
+escreva z= y-2
+escreva z 3
+escreva w=y+z*w
+escreva w 5
+algortimo fim
+-------------------
+algortimo
+escreva n1 9
+escreva n2 0
+escreva n3 5
+escreva s=n1+n2+n3
+escreva s 14 
+algortimo fim
+-------------------
+algortimo
+escreva n1-2
+escreva n2 5
+escreva n3 7
+escreva s=n1+n2+n3
+escreva s 10 
+algortimo fim
+-------------------
+algortimo
+escreva r 4
+escreva p 3.14
+escreva a=p*(r*r)
+escreva a 50.24
+algortimo fim
+-------------------
+algortimo
+escreva n 1
+escreva m 4
+escreva n 5
+escreva p=m+2
+escreva p 6
+escreva n,m,p
+escreva 5,4,6
+algortimo fim
+-------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

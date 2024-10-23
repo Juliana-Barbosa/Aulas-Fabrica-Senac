@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" modified="2024-05-08T14:37:57.774Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="6qhEjKExIDpWMuOrMJvw" version="24.3.1" type="device">
+  <diagram name="Página-1" id="03pQxZGNofH3OAKv_14I">
+    <mxGraphModel dx="847" dy="847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CTo6s7A8P0UxX_cu8GWU-1" value="" style="html=1;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="460" width="440" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="CTo6s7A8P0UxX_cu8GWU-2" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px; line-height: 107%;&quot;&gt;&lt;font style=&quot;vertical-align: inherit; font-size: 14px;&quot;&gt;&lt;font style=&quot;vertical-align: inherit; font-size: 14px;&quot;&gt;Gerar Relatório do Estoque&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Verdana;fontStyle=0;fontSize=14;textShadow=0;" vertex="1" parent="1">
+          <mxGeometry x="932" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CTo6s7A8P0UxX_cu8GWU-3" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CTo6s7A8P0UxX_cu8GWU-14" target="CTo6s7A8P0UxX_cu8GWU-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1030" y="655" as="sourcePoint" />
+            <mxPoint x="1190" y="655" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CTo6s7A8P0UxX_cu8GWU-4" value="Retirar Produto do Estoque" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Verdana;fontStyle=0;fontSize=14;textShadow=0;" vertex="1" parent="1">
+          <mxGeometry x="934" y="880" width="116" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CTo6s7A8P0UxX_cu8GWU-5" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.071;entryY=0.212;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CTo6s7A8P0UxX_cu8GWU-14" target="CTo6s7A8P0UxX_cu8GWU-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="780" y="830.0030242416215" as="sourcePoint" />
+            <mxPoint x="946.1760000000002" y="850.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CTo6s7A8P0UxX_cu8GWU-6" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px; line-height: 107%;&quot;&gt;&lt;font style=&quot;vertical-align: inherit; font-size: 14px;&quot;&gt;&lt;font style=&quot;vertical-align: inherit; font-size: 14px;&quot;&gt;Atualização de Estoque&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Verdana;fontStyle=0;fontSize=14;textShadow=0;" vertex="1" parent="1">
+          <mxGeometry x="932" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CTo6s7A8P0UxX_cu8GWU-7" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CTo6s7A8P0UxX_cu8GWU-14" target="CTo6s7A8P0UxX_cu8GWU-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="780" y="662" as="sourcePoint" />
+            <mxPoint x="991" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CTo6s7A8P0UxX_cu8GWU-8" value="&lt;font style=&quot;vertical-align: inherit; font-size: 14px;&quot;&gt;&lt;font style=&quot;vertical-align: inherit; font-size: 14px;&quot;&gt;Registrar Entrada E Saida do Produto&lt;/font&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Verdana;fontStyle=0;fontSize=14;textShadow=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CTo6s7A8P0UxX_cu8GWU-9" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CTo6s7A8P0UxX_cu8GWU-14" target="CTo6s7A8P0UxX_cu8GWU-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="770" y="239" as="sourcePoint" />
+            <mxPoint x="1190" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CTo6s7A8P0UxX_cu8GWU-10" value="Atualizar Estoque" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Verdana;fontStyle=0;fontSize=14;textShadow=0;" vertex="1" parent="1">
+          <mxGeometry x="932" y="630" width="116" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CTo6s7A8P0UxX_cu8GWU-11" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.036;entryY=0.619;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="CTo6s7A8P0UxX_cu8GWU-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="760" y="590" as="sourcePoint" />
+            <mxPoint x="1122" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CTo6s7A8P0UxX_cu8GWU-12" value="Consultar Estoque" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Verdana;fontStyle=0;fontSize=14;textShadow=0;" vertex="1" parent="1">
+          <mxGeometry x="932" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CTo6s7A8P0UxX_cu8GWU-13" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CTo6s7A8P0UxX_cu8GWU-14" target="CTo6s7A8P0UxX_cu8GWU-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="770" y="243" as="sourcePoint" />
+            <mxPoint x="991" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CTo6s7A8P0UxX_cu8GWU-14" value="Funcionário" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="560" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

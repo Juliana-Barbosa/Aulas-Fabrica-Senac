@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/script.js" defer></script>
+    <title>Landing Page Fábrica de Software</title>
+    <script src="js/carrossel.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <i class="fa-solid fa-burger" id="nav_logo"> food</i>
+            <ul class="nav-list">
+                <li class="nav-item active"><a href="#home">Home</a></li>
+                <li class="nav-item active"><a href="#cardapio">Cardápio</a></li>
+                <li class="nav-item active"><a href="#depoimentos">Avaliações</a></li>
+            </ul>
+            <button class="btn-default">Peça aqui</button>
+        </nav>
+        <button class="mobile-btn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="mobile-menu">
+            <ul class="mobile-nav-list">
+                <li class="nav-item"><a href="#home">Home</a></li>
+                <li class="nav-item"><a href="#cardapio">Cardápio</a></li>
+                <li class="nav-item"><a href="#depoimentos">Avaliações</a></li>
+            </ul>
+            <button>
+
+            </button>
+        </div>
+    </header>
+    <section class="slider">
+        <div class="slider-content">
+            <input type="radio" name="btn-radio" id="radio1" class="radio1">
+            <input type="radio" name="btn-radio" id="radio2" class="radio2">
+            <input type="radio" name="btn-radio" id="radio3" class="radio3">
+            <div class="slide-box primeiro">
+                <img src="src/imagens/imagens-hd-de-plano-de-fundo-de-hamburguer_773230-291.avif" alt="" class="img-desktop">
+            </div>
+            <div class="slide-box">
+                <img src="src/imagens/pngtree-burger-restaurant-food-background-image_2409560.jpg" alt="" class="img-desktop">
+            </div>
+            <div class="slide-box">
+                <img src="src/imagens/pexels-rafael-pereira-143965381-24595881.jpg" alt="" class="img-desktop">
+            </div>
+            <div class="nav-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+            <div class="nav-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+        </div>
+    </section>
+    <main class="content">
+        <section class="home" id="home">
+            <div class="shape"></div>
+            <div class="cta">
+                <h1 class="title">
+                    O sabor que vai até <span>você.</span>
+                </h1>
+                <p class="decricao">Delicie-se com pratos preparados com ingredientes frescos e selecionados, combinando o melhor da culinária local e internacional.</p>
+                <div class="cta_buttons">
+                    <a href="#" class="btn-default">Ver Cardápio</a>
+                </div>
+                <div class="social-media-buttons">
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>    
+                </div>
+            </div>
+            <div class="banner">
+                <img src="src/imagens/pngwing.com.png" alt="">
+            </div>
+        </section>
+        <section class="cardapio" id="cardapio">
+            <h2 class="section-title">Cardápio</h2>
+            <h3 class="section-subtitle">Nossos pratos especiais.</h3>
+            <div class="area-cards">
+                <div class="card">
+                    <div class="card-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="src/imagens/imagem (1).png" alt="" class="card-image">
+                    <h3 class="card-title">
+                        COMBO FÁBRICA
+                    </h3>
+                    <span class="card-descricao">
+                        O COMBO FÁBRICA é um Combo audacioso e irresistível, feito para quem busca uma explosão de sabores.
+                    </span>
+                    <div class="card-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="card-price">
+                        <h4>R$40,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="src/imagens/imagem (2).png" alt="" class="card-image">
+                    <h3 class="card-title">
+                        COMBO FÁBRICA
+                    </h3>
+                    <span class="card-descricao">
+                        O COMBO FÁBRICA é um Combo audacioso e irresistível, feito para quem busca uma explosão de sabores.
+                    </span>
+                    <div class="card-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="card-price">
+                        <h4>R$40,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div><div class="card">
+                    <div class="card-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="src/imagens/imagem (3).png" alt="" class="card-image">
+                    <h3 class="card-title">
+                        COMBO FÁBRICA
+                    </h3>
+                    <span class="card-descricao">
+                        O COMBO FÁBRICA é um Combo audacioso e irresistível, feito para quem busca uma explosão de sabores.
+                    </span>
+                    <div class="card-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="card-price">
+                        <h4>R$40,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div><div class="card">
+                    <div class="card-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="src/imagens/imagem.png" alt="" class="card-image">
+                    <h3 class="card-title">
+                        COMBO FÁBRICA
+                    </h3>
+                    <span class="card-descricao">
+                        O COMBO FÁBRICA é um Combo audacioso e irresistível, feito para quem busca uma explosão de sabores.
+                    </span>
+                    <div class="card-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="card-price">
+                        <h4>R$40,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div><div class="card">
+                    <div class="card-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="src/imagens/imagem (1).png" alt="" class="card-image">
+                    <h3 class="card-title">
+                        COMBO FÁBRICA
+                    </h3>
+                    <span class="card-descricao">
+                        O COMBO FÁBRICA é um Combo audacioso e irresistível, feito para quem busca uma explosão de sabores.
+                    </span>
+                    <div class="card-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="card-price">
+                        <h4>R$40,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div><div class="card">
+                    <div class="card-heart">
+                        <i class="fa-solid fa-heart"></i>
+                        <!-- <button type="button"><i class="fa-solid fa-heart"></i></button> -->
+                    </div>
+                    <img src="src/imagens/imagem (2).png" alt="" class="card-image">
+                    <h3 class="card-title">
+                        COMBO FÁBRICA
+                    </h3>
+                    <span class="card-descricao">
+                        O COMBO FÁBRICA é um Combo audacioso e irresistível, feito para quem busca uma explosão de sabores.
+                    </span>
+                    <div class="card-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="card-price">
+                        <h4>R$40,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="depoimentos" id="depoimentos">
+            <img src="src/imagens/chefe.png" alt="mulher" class="depoimentos-chef">
+            <div class="area-feedbacks">
+                <div class="depoimentos-content">
+                    <h2 class="section-title">Depoimentos</h2>
+                    <h3 class="section-subtitle">
+                        O que os clientes falam sobre nós.
+                    </h3>
+                </div>
+                <div class="feedbacks">
+                    <img src="src/imagens/perfil2.png" alt="" class="feedback-avatar">
+                    <div class="feedback-content">
+                        <p>Frabrica Prime
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </p>
+                        <p>
+                            O lanche de frango grelhado é uma excelente opção para quem busca sabor e praticidade. O frango está bem temperado e suculento, complementado por alface fresca e tomate, que trazem crocância e frescor. O pão é macio, proporcionando uma ótima textura. A maionese adiciona um toque cremoso que harmoniza todos os sabores. Ideal para um lanche rápido e satisfatório!
+                        </p>
+                    </div>
+                </div>
+                <div class="feedbacks">
+                    <img src="src/imagens/perfil3.png" alt="" class="feedback-avatar">
+                    <div class="feedback-content">
+                        <p>Frabrica Prime
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </p>
+                        <p>
+                            O sanduíche de frango grelhado é uma ótima escolha para quem procura uma refeição saborosa e prática. O frango é bem temperado e suculento, acompanhado por alface crocante e tomate fresco, que dão leveza e textura ao conjunto. O pão macio garante uma mordida agradável, enquanto a maionese traz cremosidade, unindo todos os sabores de forma equilibrada. Perfeito para um lanche rápido e delicioso!
+                        </p>
+                    </div>
+                </div>
+                <button class="btn-default">
+                    Ver mais Avaliações.
+                </button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-itens">
+            <span class="copyright">
+                &copy Juliana Barbosa 2024
+            </span>
+            <div class="social-media-buttons">
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>    
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
